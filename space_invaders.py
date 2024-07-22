@@ -80,6 +80,7 @@ while running:
         enemy[0] += enemy_speed
         if enemy[0] < 0 or enemy[0] > screen_width - enemy_width:
             enemy_speed *= -1
+            
 
     # Bullet movement
     if bullet_state == "fire":
